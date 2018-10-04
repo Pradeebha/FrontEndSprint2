@@ -1,5 +1,5 @@
-export class Register{
-    public userName:String;
-    public userEmail:String;
-    public userPassword:String
+export class Register {
+    public userName: String;
+    public userEmail: String;
+    public userPassword: String;
 }

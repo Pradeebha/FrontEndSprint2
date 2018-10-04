@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import { Academic } from '../model/academic';
-import { AcademicsService } from '../services/academics.service';
+import { Component, OnInit } from "@angular/core";
+import { Academic } from "../model/academic";
+import { AcademicsService } from "../services/academics.service";
 
 @Component({
-  selector: 'app-academic-details',
-  templateUrl: './academic-details.component.html',
-  styleUrls: ['./academic-details.component.css']
+  selector: "app-academic-details",
+  templateUrl: "./academic-details.component.html",
+  styleUrls: ["./academic-details.component.css"]
 })
 export class AcademicDetailsComponent implements OnInit {
   academic:Academic=new Academic();
